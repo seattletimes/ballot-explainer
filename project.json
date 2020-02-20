@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "aerodynamic-glumness"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
@@ -15,7 +15,7 @@
   "url": "",
   "post_id": 0,
   "image": "assets/social.jpg",
-  "sheets": [],
+  "sheets": ["1qWBEi51fFAFc95nHg0QjjhVa0vJK8BZjbrsSW8NPHPo"],
   "docs": [],
   "embedded": true,
   "production": false

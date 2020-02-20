@@ -13,7 +13,18 @@
       <%= t.include("partials/_gtmNoScript.html") %>
     <% } %>
     <responsive-child>
-      <!-- content goes here -->
+      <h2 class="graphic-hed">A look at Washington state’s 2020 primary ballot and envelope</h2>
+      <p>Click for a tour of the ballot</p>
+      <div class="flexbox">
+        <button id="prev-button"><</button>
+        <div>
+          <p class="annotation-hed" id="annotation-hed">Democratic vote counts.</p>
+          <p class="annotation-text" id="annotation-text">For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.</p>
+        </div>
+        <button id="next-button">></button>
+      </div>
+      <div id="image-container" style="background-image: url('./assets/ballot.png')">
+      </div>
     </responsive-child>
 
     <script src="app.js" async></script>
