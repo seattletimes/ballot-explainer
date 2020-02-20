@@ -5,6 +5,7 @@ require("component-responsive-frame/child");
 
 var current = 0,
 	data = require("../../data/ballot-annotations.sheet.json"),
+	page_label = document.querySelector("#page-label"),
 	annotation_hed = document.querySelector("#annotation-hed"),
 	annotation_text = document.querySelector("#annotation-text"),
 	prev_button = document.querySelector("#prev-button"),
@@ -14,9 +15,15 @@ var current = 0,
 var goToAnnotation = function(index) {
 	var annotation = data[index];
 
+	if (page_label.textContent !== annotation.page) {
+			page_label.textContent = annotation.page;
+	}
 	annotation_hed.textContent = annotation.hed;
 	annotation_text.textContent = annotation.text;
 
+	if (image_container.style["background-image"] != 'url("../../assets/' + annotation.bg_image + '")') {
+		image_container.style["background-image"] = 'url("../../assets/' + annotation.bg_image + '")';
+	}
 	image_container.style["background-size"] = annotation.bg_size;
 	image_container.style["background-position"] = annotation.bg_position;
 }
