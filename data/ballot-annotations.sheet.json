@@ -4,56 +4,56 @@
     "hed": "Democratic vote counts.",
     "text": "For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.",
     "bg_image": "ballot.png",
-    "bg_position": "50% 50%",
-    "bg_size": "1000px auto"
+    "bg_position": "50% 5%",
+    "bg_size": "100% auto"
   },
   {
     "page": "The ballot",
     "hed": "Republicans stick with Trump.",
     "text": "President Trump faces no serious Republican competition nationally, and the state GOP required any challenger trying to get on the ballot here to pay a $12,000 fee and obtain signatures from a dozen Republican state central committee members. None met that threshold.",
     "bg_image": "ballot.png",
-    "bg_position": "25% 25%",
-    "bg_size": "1000px auto"
+    "bg_position": "100% 0%",
+    "bg_size": "190% auto"
   },
   {
     "page": "The ballot",
     "hed": "Uncommitted option?",
     "text": "The Democrats allowed an “uncommitted delegate” choice. If enough people vote for the option, delegates will be sent to the Democratic National Convention able to choose any candidate they like. Republicans did not give voters the option.",
     "bg_image": "ballot.png",
-    "bg_position": "10% 90%",
-    "bg_size": "1000px auto"
+    "bg_position": "50% 65%",
+    "bg_size": "190% auto"
   },
   {
     "page": "The ballot",
     "hed": "Pick a party.",
     "text": "You can vote in only the Democratic or Republican races – not both. If you do, your ballot will not be counted.",
     "bg_image": "ballot.png",
-    "bg_position": "50% 50%",
-    "bg_size": "1000px auto"
+    "bg_position": "50% 75%",
+    "bg_size": "190% auto"
   },
   {
     "page": "The ballot",
     "hed": "Write-ins: Don’t like any of your choices?",
     "text": "There is a write-in option for both the Republican and Democratic sides. Those votes will be counted as generic write-ins, but elections officials will not tally up whether Oprah Winfrey or Daffy Duck got the most votes.",
     "bg_image": "ballot.png",
-    "bg_position": "25% 25%",
-    "bg_size": "1000px auto"
+    "bg_position": "50% 75%",
+    "bg_size": "190% auto"
   },
   {
     "page": "The ballot",
-    "hed": "Candidates who have officially ended their campaigns as of Feb. 18.",
+    "hed": "Five candidates  have officially ended their campaigns as of Feb. 18.",
     "text": "",
     "bg_image": "ballot.png",
-    "bg_position": "10% 90%",
-    "bg_size": "1000px auto"
+    "bg_position": "50% 38%",
+    "bg_size": "150% auto"
   },
   {
     "page": "Back of the envelope",
     "hed": "Partisan oaths.",
     "text": "For your vote to count, you have to sign a declaration saying you consider yourself either a Republican or a Democrat for the purposes of the primary. You cannot check the Republican box and vote in the Democratic primary – or vice versa. This only applies to the presidential primary. It does not restrict your choices later, including in the November general election.",
     "bg_image": "back-envelope.png",
-    "bg_position": "50% 50%",
-    "bg_size": "1000px auto"
+    "bg_position": "0% 50%",
+    "bg_size": "210% auto"
   },
   {
     "page": "Back of the envelope",
@@ -61,15 +61,15 @@
     "text": "The law says it’s a crime to falsely sign the partisan declaration – punishable by up to five years in prison. The reality is no one has ever been prosecuted for this.",
     "bg_image": "back-envelope.png",
     "bg_position": "25% 25%",
-    "bg_size": "1000px auto"
+    "bg_size": "800px auto"
   },
   {
     "page": "Back of the envelope",
     "hed": "Is my party choice public?",
     "text": "Yes. The ballot you select – Republican or Democratic – is public information that will be given to the parties, and can be obtained by media or anyone else. Your actual candidate choice cannot be made public, however.",
     "bg_image": "back-envelope.png",
-    "bg_position": "10% 90%",
-    "bg_size": "1000px auto"
+    "bg_position": "0% 50%",
+    "bg_size": "210% auto"
   },
   {
     "page": "Front of the envelope",
@@ -77,6 +77,6 @@
     "text": "Postage for all ballots is paid. And you can also put them in a drop box. Check with your county elections office for locations. Ballots must be postmarked by March 10.",
     "bg_image": "front-envelope.png",
     "bg_position": "50% 50%",
-    "bg_size": "1000px auto"
+    "bg_size": "100% auto"
   }
 ]

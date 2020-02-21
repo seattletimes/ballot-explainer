@@ -14,17 +14,19 @@
     <% } %>
     <responsive-child>
       <h2 class="graphic-hed">A look at Washington state’s 2020 primary ballot and envelope</h2>
-      <p >Click for a tour of the ballot</p>
-      <p class="page-label" id="page-label">The ballot</p>
       <div class="flexbox">
-        <button id="prev-button"><</button>
-        <div>
-          <p class="annotation-hed" id="annotation-hed">Democratic vote counts.</p>
-          <p class="annotation-text" id="annotation-text">For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.</p>
-        </div>
-        <button id="next-button">></button>
+        <button id="prev-button" class="inactive"><</button>
+        <p class="instructions">Click or tap for a tour.</p> 
+        <button id="next-button" class="active">></button>
       </div>
-      <div id="image-container" style="background-image: url('./assets/ballot.png')">
+      
+      <div id="image-container" style="background-image: url('./assets/ballot.png')"></div>
+      <p class="page-label" id="page-label">The ballot</p>
+      <p class="annotation-hed" id="annotation-hed">Democratic vote counts.</p>
+      <p class="annotation-text" id="annotation-text">For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.</p>
+      <div class="caption">
+        <p class="data-source">Source: Washington Secretary of State Elections</p>
+        <p class="art-credit">Jim Brunner and Hilary Fung / The Seattle Times</p>
       </div>
     </responsive-child>
 

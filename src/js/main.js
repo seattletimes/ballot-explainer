@@ -21,21 +21,41 @@ var goToAnnotation = function(index) {
 	annotation_hed.textContent = annotation.hed;
 	annotation_text.textContent = annotation.text;
 
-	if (image_container.style["background-image"] != 'url("../../assets/' + annotation.bg_image + '")') {
-		image_container.style["background-image"] = 'url("../../assets/' + annotation.bg_image + '")';
+	if (image_container.style["background-image"] != 'url("./assets/' + annotation.bg_image + '")') {
+		image_container.style["background-image"] = 'url("./assets/' + annotation.bg_image + '")';
 	}
 	image_container.style["background-size"] = annotation.bg_size;
 	image_container.style["background-position"] = annotation.bg_position;
+
+	if (index === data.length - 1) {
+		next_button.classList.remove("active");
+		next_button.classList.add("inactive");
+	} else {
+		next_button.classList.remove("inactive");
+		next_button.classList.add("active");
+	}
+
+	if (index === 0) {
+		prev_button.classList.remove("active");
+		prev_button.classList.add("inactive");
+	} else {
+		prev_button.classList.remove("inactive");
+		prev_button.classList.add("active");
+	}
 }
 
 var nextAnnotation = function() {
-	current += 1;
-	goToAnnotation(current);
+	if (current < data.length - 1) {
+		current += 1;
+		goToAnnotation(current);
+	}
 }
 
 var previousAnnotation = function() {
-	current -= 1;
-	goToAnnotation(current);
+	if (current > 0) {
+		current -= 1;
+		goToAnnotation(current);
+	}
 }
 
 goToAnnotation(0);
