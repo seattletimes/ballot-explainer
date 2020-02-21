@@ -12,7 +12,7 @@
     "hed": "Republicans stick with Trump.",
     "text": "President Trump faces no serious Republican competition nationally, and the state GOP required any challenger trying to get on the ballot here to pay a $12,000 fee and obtain signatures from a dozen Republican state central committee members. None met that threshold.",
     "bg_image": "ballot-with-highlights.png",
-    "bg_position": "100% 0%",
+    "bg_position": "100% 10%",
     "bg_size": "190% auto"
   },
   {
@@ -36,7 +36,7 @@
     "hed": "Write-ins: Don’t like any of your choices?",
     "text": "There is a write-in option for both the Republican and Democratic sides. Those votes will be counted as generic write-ins, but elections officials will not tally up whether Oprah Winfrey or Daffy Duck got the most votes.",
     "bg_image": "ballot-with-highlights.png",
-    "bg_position": "50% 75%",
+    "bg_position": "50% 70%",
     "bg_size": "190% auto"
   },
   {
@@ -45,23 +45,23 @@
     "text": "The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. ",
     "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 38%",
-    "bg_size": "150% auto"
+    "bg_size": "140% auto"
   },
   {
     "page": "Back of the envelope",
     "hed": "Partisan oaths.",
     "text": "For your vote to count, you have to sign a declaration saying you consider yourself either a Republican or a Democrat for the purposes of the primary. You cannot check the Republican box and vote in the Democratic primary – or vice versa. This only applies to the presidential primary. It does not restrict your choices later, including in the November general election.",
     "bg_image": "back-envelope.png",
-    "bg_position": "0% 50%",
-    "bg_size": "210% auto"
+    "bg_position": "0% 16%",
+    "bg_size": "230% auto"
   },
   {
     "page": "Back of the envelope",
     "hed": "A felony? Yikes!",
     "text": "The law says it’s a crime to falsely sign the partisan declaration – punishable by up to five years in prison. The reality is no one has ever been prosecuted for this.",
     "bg_image": "back-envelope.png",
-    "bg_position": "25% 25%",
-    "bg_size": "800px auto"
+    "bg_position": "-5% -50%",
+    "bg_size": "108% auto"
   },
   {
     "page": "Back of the envelope",
