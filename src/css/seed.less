@@ -9,8 +9,17 @@ responsive-child {
 	width: 100%;
 }
 
-.flexbox {
-	display: flex;
+.container {
+	position: relative;
+}
+
+#intro, #stepper {
+	&.inactive {
+		display: none;
+	}
+	&.active {
+		display: block;
+	}
 }
 
 button {
@@ -21,10 +30,9 @@ button {
 	font-size: 1.5em;
 	font-weight: bold;
 	height: 50px;
-	width: 50px;
-	&.inactive {
-		background-color: @df-light-gray;
-	}
+	margin-top: -25px;
+	position: absolute;
+	top: 50%;
 	&.active {
 		background-color: @df-blue;
 		cursor: pointer;
@@ -34,9 +42,29 @@ button {
 	}
 }
 
+#start-button {
+	display: block;
+	left: 50%;
+	margin-left: -82.5px;
+	width: 165px;
+}
+
+.stepper-button {
+
+	width: 50px;
+	z-index: 2;
+	&.inactive {
+		background-color: @df-light-gray;
+	}
+}
+
+#next-button {
+	right: 0;
+}
+
 .navigation-text {
 	font-family: @df-sans;
-	width: ~"calc(100% - 100px)";
+	width: 100%;
 	text-align: center;
 	padding: 0 10px;
 	margin: 0;

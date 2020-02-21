@@ -9,9 +9,17 @@ var current = 0,
 	page_label = document.querySelector("#page-label"),
 	annotation_hed = document.querySelector("#annotation-hed"),
 	annotation_text = document.querySelector("#annotation-text"),
+	start_button = document.querySelector("#start-button"),
 	prev_button = document.querySelector("#prev-button"),
 	next_button = document.querySelector("#next-button"),
 	image_container = document.querySelector("#image-container");
+
+var startTour = function() {
+	document.querySelector("#intro").classList.remove("active");
+	document.querySelector("#intro").classList.add("inactive");
+	document.querySelector("#stepper").classList.remove("active");
+	document.querySelector("#stepper").classList.remove("inactive");
+}
 
 var goToAnnotation = function(index) {
 	var annotation = data[index];
@@ -61,7 +69,10 @@ var previousAnnotation = function() {
 	}
 }
 
-goToAnnotation(0);
+start_button.addEventListener("click", function() {
+	startTour();
+	goToAnnotation(0);
+})
 
 prev_button.addEventListener("click", function() {
 	previousAnnotation();

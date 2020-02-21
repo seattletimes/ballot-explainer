@@ -3,7 +3,7 @@
     "page": "The ballot",
     "hed": "Democratic vote counts.",
     "text": "For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 5%",
     "bg_size": "100% auto"
   },
@@ -11,7 +11,7 @@
     "page": "The ballot",
     "hed": "Republicans stick with Trump.",
     "text": "President Trump faces no serious Republican competition nationally, and the state GOP required any challenger trying to get on the ballot here to pay a $12,000 fee and obtain signatures from a dozen Republican state central committee members. None met that threshold.",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "100% 0%",
     "bg_size": "190% auto"
   },
@@ -19,7 +19,7 @@
     "page": "The ballot",
     "hed": "Uncommitted option?",
     "text": "The Democrats allowed an “uncommitted delegate” choice. If enough people vote for the option, delegates will be sent to the Democratic National Convention able to choose any candidate they like. Republicans did not give voters the option.",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 65%",
     "bg_size": "190% auto"
   },
@@ -27,7 +27,7 @@
     "page": "The ballot",
     "hed": "Pick a party.",
     "text": "You can vote in only the Democratic or Republican races – not both. If you do, your ballot will not be counted.",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 75%",
     "bg_size": "190% auto"
   },
@@ -35,7 +35,7 @@
     "page": "The ballot",
     "hed": "Write-ins: Don’t like any of your choices?",
     "text": "There is a write-in option for both the Republican and Democratic sides. Those votes will be counted as generic write-ins, but elections officials will not tally up whether Oprah Winfrey or Daffy Duck got the most votes.",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 75%",
     "bg_size": "190% auto"
   },
@@ -43,7 +43,7 @@
     "page": "The ballot",
     "hed": "Five candidates were no longer running as of Feb. 18.",
     "text": "The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. ",
-    "bg_image": "ballot.png",
+    "bg_image": "ballot-with-highlights.png",
     "bg_position": "50% 38%",
     "bg_size": "150% auto"
   },
