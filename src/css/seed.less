@@ -30,35 +30,83 @@ button {
 	font-size: 1.5em;
 	font-weight: bold;
 	height: 50px;
-	margin-top: -25px;
 	position: absolute;
 	top: 50%;
-	&.active {
-		background-color: @df-blue;
-		cursor: pointer;
-		&:hover {
-			background-color: darken(@df-blue, 20%);
-		}
-	}
 }
 
 #start-button {
+	background: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 	display: block;
-	left: 50%;
-	margin-left: -82.5px;
-	width: 165px;
-}
-
-.stepper-button {
-
-	width: 50px;
-	z-index: 2;
-	&.inactive {
-		background-color: @df-light-gray;
+	height: 100%;
+	top: 0;
+	width: 100%;
+	&:hover {
+		background: rgba(0, 0, 0, 0.5);
 	}
 }
 
+.button-text {
+	background: #fff;
+	border: none;
+	border-radius: 5px;
+	color: @df-blue;
+	font-size: 0.65em;
+	padding: 20px 40px;
+	text-transform: uppercase;
+	.arrow {
+		padding-left: 5px;
+	}
+}
+
+#start-button:hover .button-text {
+
+}
+
+.stepper-button {
+	background: rgba(0, 0, 0, 0);
+	height: 100%;
+	top: 0;
+	width: 50%;
+	z-index: 2;
+	&:hover .arrow {
+
+	}
+	&.active {
+		cursor: pointer;
+	}
+	&.inactive .arrow {
+		background-color: @df-light-gray;
+	}
+	&.active .arrow {
+		background-color: #000;
+	}
+}
+
+.stepper-button .arrow {
+	border: 2px solid #fff;
+	border-radius: 7px;
+	height: 50px;
+	line-height: 46px;
+	margin-top: -25px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+}
+
+.stepper-button:hover .arrow {
+	background-color: @df-blue;
+}
+
+#prev-button .arrow {
+	left: 12px;
+}
+
 #next-button {
+	right: 12px;
+}
+
+#next-button .arrow {
 	right: 0;
 }
 
@@ -68,7 +116,6 @@ button {
 	text-align: center;
 	padding: 0 10px;
 	margin: 0;
-	line-height: 50px;
 }
 
 #image-container {

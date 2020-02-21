@@ -15,14 +15,20 @@
     <responsive-child>
       <h2 class="graphic-hed">A look at Washington state’s 2020 primary ballot and envelope</h2>
       <div id="intro" class="container active">
-        <button id="start-button" class="active">Start tour</button>
+        <button id="start-button" class="active">
+          <span class="button-text">Tour the ballot <span class="arrow">&#9654;</span></span>
+        </button>
         <img src="./assets/ballot.png">
       </div>
       <div id="stepper" class="inactive">
         <p id="navigation-text" class="navigation-text"></p>
         <div class="container">
-          <button id="prev-button" class="stepper-button inactive">&#9664;</button>
-          <button id="next-button" class="stepper-button active">&#9654;</button>
+          <button id="prev-button" class="stepper-button inactive">
+            <span class="arrow">&#9664;</span>
+          </button>
+          <button id="next-button" class="stepper-button active">
+            <span class="arrow">&#9654;</span>
+          </button>
           <div id="image-container" style="background-image: url('./assets/ballot.png')"></div>
         </div>
         <p class="page-label" id="page-label">The ballot</p>
