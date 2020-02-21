@@ -50,7 +50,7 @@ button {
 	background: #fff;
 	border: none;
 	border-radius: 5px;
-	color: @df-blue;
+	color: #333;
 	font-size: 0.65em;
 	padding: 20px 40px;
 	text-transform: uppercase;
@@ -69,44 +69,45 @@ button {
 	top: 0;
 	width: 50%;
 	z-index: 2;
-	&:hover .arrow {
-
-	}
 	&.active {
 		cursor: pointer;
 	}
 	&.inactive .arrow {
-		background-color: @df-light-gray;
+		display: none;
 	}
 	&.active .arrow {
-		background-color: #000;
+		background-color: rgba(0, 0, 0, 0.3);
 	}
 }
 
 .stepper-button .arrow {
-	border: 2px solid #fff;
-	border-radius: 7px;
-	height: 50px;
-	line-height: 46px;
-	margin-top: -25px;
+	height: 100%;
 	position: absolute;
-	top: 50%;
+	top: 0;
 	width: 50px;
+	@media (max-width: 630px) {
+		line-height: 60vw;
+	}
+	@media (min-width: 631px) {
+		line-height: 390px;
+	}
 }
 
 .stepper-button:hover .arrow {
-	background-color: @df-blue;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 #prev-button .arrow {
-	left: 12px;
+	border-radius: 5px 0 0 5px;
+	left: 0;
 }
 
 #next-button {
-	right: 12px;
+	right: 0;
 }
 
 #next-button .arrow {
+	border-radius: 0 5px 5px 0;
 	right: 0;
 }
 
