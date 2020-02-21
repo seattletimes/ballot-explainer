@@ -2,7 +2,7 @@
   {
     "page": "The ballot",
     "hed": "Democratic vote counts.",
-    "text": "For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.",
+    "text": "For the first time, Washington Democrats are using the state primary, instead of caucuses, to award presidential delegates. The state’s 89 up-for-grabs delegates to the Democratic National Convention will be divided proportionately among candidates receiving at least 15% of the vote statewide or in any congressional district.",
     "bg_image": "ballot.png",
     "bg_position": "50% 5%",
     "bg_size": "100% auto"
@@ -41,8 +41,8 @@
   },
   {
     "page": "The ballot",
-    "hed": "Five candidates  have officially ended their campaigns as of Feb. 18.",
-    "text": "",
+    "hed": "Five candidates were no longer running as of Feb. 18.",
+    "text": "The 13 listed candidates include several who have ended their campaigns since the ballot was finalized. ",
     "bg_image": "ballot.png",
     "bg_position": "50% 38%",
     "bg_size": "150% auto"
@@ -66,7 +66,7 @@
   {
     "page": "Back of the envelope",
     "hed": "Is my party choice public?",
-    "text": "Yes. The ballot you select – Republican or Democratic – is public information that will be given to the parties, and can be obtained by media or anyone else. Your actual candidate choice cannot be made public, however.",
+    "text": "Yes. The ballot you select – Democratic or Republican – is public information that will be given to the parties, and can be obtained by media or anyone else. Your actual candidate choice cannot be made public, however.",
     "bg_image": "back-envelope.png",
     "bg_position": "0% 50%",
     "bg_size": "210% auto"
@@ -74,7 +74,7 @@
   {
     "page": "Front of the envelope",
     "hed": "No need for a stamp.",
-    "text": "Postage for all ballots is paid. And you can also put them in a drop box. Check with your county elections office for locations. Ballots must be postmarked by March 10.",
+    "text": "Ballot postage is already paid. You can also put your ballot in a drop box. Check with your county elections office for locations. Ballots must be postmarked by March 10.",
     "bg_image": "front-envelope.png",
     "bg_position": "50% 50%",
     "bg_size": "100% auto"

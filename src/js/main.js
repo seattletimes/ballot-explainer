@@ -5,6 +5,7 @@ require("component-responsive-frame/child");
 
 var current = 0,
 	data = require("../../data/ballot-annotations.sheet.json"),
+	nav_text = document.querySelector("#navigation-text"),
 	page_label = document.querySelector("#page-label"),
 	annotation_hed = document.querySelector("#annotation-hed"),
 	annotation_text = document.querySelector("#annotation-text"),
@@ -14,6 +15,8 @@ var current = 0,
 
 var goToAnnotation = function(index) {
 	var annotation = data[index];
+
+	nav_text.textContent = (index + 1) + " / " + (data.length);
 
 	if (page_label.textContent !== annotation.page) {
 			page_label.textContent = annotation.page;
@@ -66,4 +69,15 @@ prev_button.addEventListener("click", function() {
 
 next_button.addEventListener("click", function() {
 	nextAnnotation();
-})
+});
+
+document.onkeydown = function(event) {
+  switch (event.keyCode) {
+   case 37:
+      previousAnnotation();
+    break;
+   case 39:
+      nextAnnotation();
+    break;
+  }
+};
